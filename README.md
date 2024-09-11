@@ -7,7 +7,7 @@ The following instructions require Windows 10 or above:
 ## Pre-requisites to compile AGK Studio
 Ensure the following are installed with particular attention to the versions:
 - Install Visual Studio 2022
-- Android Studio (android-studio-2024.1.1.13-windows.exe) 
+- Android Studio (android-studio-2024.1.2.12-windows.exe) 
 - Android SDK 35
 - Android 15.0 platform
 - Install Java JDK 17
@@ -20,7 +20,7 @@ Small changes to any pre-API 33 projects include:
 - Add namespace 'com.thegamecreators.agk_player2' in "AGKPlayer2\build.gradle"
 - Add mavenCentral() in "build.gradle"
 - Remove jcenter() in "build.gradle"
-- Update version classpath 'com.android.tools.build:gradle:8.5.2' // was 8.1.1
+- Update version classpath 'com.android.tools.build:gradle:8.6.0' // was 8.5.2
 - Update version compileSdkVersion 34 in "AGKPlayer2\build.gradle"
 - Ensure that any Android Studio project points to JDK 17 (via "Settings>Build,Exe&Dep>Build Tools>Gradle>GradleJDK")
 
